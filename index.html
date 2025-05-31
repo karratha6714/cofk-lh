@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>City of Karratha - Locl History</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-image: url('cofk-background-ipad-a16.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+    }
+
+    .grid-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: flex-start;
+      max-width: 90%;
+    }
+
+    .grid-item {
+      //background-color: #1e217f;
+	  background-color: #012440;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      flex: 0 0 calc(33.333% - 20px);
+      box-sizing: border-box;
+      min-width: 150px;
+      max-width: calc(33.333% - 20px);
+      border-radius: 8px;
+      transition: transform 0.2s;
+    }
+
+
+    .grid-item.full-width {
+      flex: 1 1 100%;
+      max-width: calc(100% - 40px);
+	  text-align: left;
+	  font-size: 24px;
+    }
+
+    .grid-item:hover {
+      transform: scale(1.03);
+    }
+
+    .grid-item a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item full-width"><a href="https://karratha.spydus.com/cgi-bin/spydus.exe/MSGTRNGEN/OPAC/LOCALHISTORY">Local History - Karratha Library</a></div>
+    <div class="grid-item"><a href="https://karratha.wa.gov.au/arts-and-culture/local-history/council-history">Council History</a></div>
+	<div class="grid-item"><a href="https://libraries.karratha.wa.gov.au/services/memory-preservation-station">Memory Preservation Station</a></div>  
+    <div class="grid-item"><a href="https://karratha.wa.gov.au/arts-and-culture/local-history">Local History</a></div>
+    <div class="grid-item"><a href="https://karratha.wa.gov.au/building-and-land/planning-legislation-and-guidelines/local-heritage-inventory">Local Heritage Inventory</a></div>
+    <div class="grid-item"><a href="https://karratha.wa.gov.au/arts-and-culture/local-history/information-educators">Information for educators</a></div>
+    <div class="grid-item"><a href="https://karratha.wa.gov.au/arts-and-culture/local-history/local-history-collection">Local History Collection</a></div>
+    <div class="grid-item"><a href="https://karratha.wa.gov.au/arts-and-culture/local-history/local-history-museum-trail/city-karratha-admin-building">City of Karratha Admin Building</a></div>
+    <div class="grid-item"><a href="https://karratha.wa.gov.au/arts-and-culture/local-history/local-history-museum-trail">Local History Museum Trail</a></div>
+    <div class="grid-item"><a href="https://karratha.wa.gov.au/arts-and-culture/local-history/local-history-museum-trail/dampier-library">Dampier Library</a></div>
+    <div class="grid-item"><a href="https://karratha.wa.gov.au/arts-and-culture/local-history/local-history-museum-trail/karratha-airport">Karratha Airport</a></div>
+    <div class="grid-item"><a href="https://karratha.wa.gov.au/arts-and-culture/local-history/local-history-museum-trail/karratha-library">Karratha Library</a></div>
+    <div class="grid-item"><a href="https://karratha.wa.gov.au/arts-and-culture/local-history/local-history-museum-trail/red-earth-arts-precinct">Red Earth Arts Precinct</a></div>
+    <div class="grid-item"><a href="https://karratha.wa.gov.au/arts-and-culture/local-history/local-history-museum-trail/visitors-centre">Visitors Centre</a></div>
+    <div class="grid-item"><a href="https://karratha.wa.gov.au/arts-and-culture/local-history/local-history-museum-trail/wickham-library">Wickham Library</a></div>
+    <div class="grid-item"><a href="https://libraries.karratha.wa.gov.au/">City of Karratha Libraries</a></div>
+    <div class="grid-item"><a href="National Library of Australia-https://trove.nla.gov.au/">TROVE - National Library of Australia</a></div>
+    <div class="grid-item"><a href="Home-https://karratha.spydus.com/cgi-bin/spydus.exe/MSGTRN/OPAC/HOME">Karratha Library - Home</a></div>
+  </div>
+</body>
+</html>
